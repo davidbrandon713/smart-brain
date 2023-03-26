@@ -1,3 +1,5 @@
+![Example](https://i.imgur.com/WOOr0eE.png)
+
 # SmartBrain - v3
 Final project for ZTM course
 
