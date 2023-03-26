@@ -1,11 +1,14 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom/client';
 import App from './App';
+import Modal from './components/Modal/Modal';
 // import registerServiceWorker from './registerServiceWorker';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import 'tachyons';
 
-const root = createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<App />)
 
